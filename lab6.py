@@ -1,5 +1,6 @@
 
 from turtle import Turtle
+import turtle
 '''
 
 class Square(Turtle):
@@ -31,21 +32,37 @@ move_forward()
 
 turtle.mainloop()
 '''
-class Hexagon():
-    def __init__ (self, size, color)
-        Turtle.__init__self()
+class Hexagon(Turtle):
+    def __init__ (self, size, color):
+        Turtle.__init__(self)
 
         turtle.home()
         turtle.begin_poly()
         i = 6
         turtle.pu()
-        for i in range(6):
-            turtle.fd()
+    f.color(color)
+    self.speed(speed)
+# Code to create two ball objects here
+
+def check_collision(ball1, ball2):
+    #logic to check if the ballf.color(color)
+    self.speed(speed)
+# Code to create two ball objects here
+
+def check_collision(ball1, ball2):
+    #logic to check if the ball    for i in range(6):
+            turtle.fd(size)
             turtle.left(60)
+
         turtle.end_poly()
         hexagon = turtle.get_poly()
+        turtle.register_shape("hexagon", hexagon)
+
+        self.color(color)
+        self.shape("hexagon")
 
 
+h = Hexagon(400, "red")
 
 
 
